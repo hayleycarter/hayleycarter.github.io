@@ -1,0 +1,211 @@
+body {
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 14px;
+	margin: 0;
+	letter-spacing: 4px;
+}
+
+#wrapper {
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+	height: 64px;
+}
+
+#logo {
+	height: 48px;
+	cursor: pointer;
+	margin-bottom: 15px;
+	margin-top: 8px;
+	margin-left: 8px;
+	position: relative;
+}
+
+#top_bar {
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  background: black;
+  position: fixed;
+  z-index: 1000;
+}
+
+#wrapper {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  background: black;
+  opacity: .8;
+}
+
+#searchbar_container {
+  position: absolute;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.nav-option {
+	color: white;
+	margin: 10px 80px;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.nav-option:hover {
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.nav-option > a {
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.header {
+	color: white;
+	font-family: 'Archivo Narrow', sans-serif;
+}
+
+#title {
+	position: relative;
+	margin-left: 40%;
+	font-size: 100px;
+	letter-spacing: 0px;
+}
+
+#title:hover {
+	color: #4D4A54;
+	transition: 2s;
+}
+
+
+#subtitle {
+	position: relative;
+	margin-left: 40%;
+	width: 100%;
+	letter-spacing: 8px;
+	margin-top: -2%;
+}
+
+a:hover {
+  text-decoration: bold;
+}
+
+#searchbar-container {
+	position: absolute;
+	display: inline-block;
+	left: 80%;
+	margin-top: 20px;
+
+}
+
+#searchbar {
+  width: 200px;
+  height: 20px;
+  font-size: medium;
+  font-family: 'Archivo Narrow', sans-serif;
+  text-align: center;
+}
+
+#header {
+	position: relative;
+	margin-left: 38%;
+	font-size: 50px;
+	letter-spacing: 0px;
+	font-family: 'Archivo Narrow', sans-serif;
+	margin-top: 15px;
+}
+
+#subheader {
+	position: relative;
+	margin-left: 39%;
+	font-size: 20;
+	letter-spacing: 5
+}
+
+.map-point {
+	width: 70px;
+	z-index: 4;
+	position: absolute;
+	
+}
+
+
+#rio {
+	margin-top: 434px;
+	margin-left: -640;
+}
+
+#arizona {
+	margin-top: 279px;
+	margin-left: -810;
+}
+
+#tokyo {
+	margin-top: 270;
+	margin-left: -14.5%;
+}
+
+#christchurch {
+	margin-top: 500; 
+	margin-left: -115;
+}
+
+#bangkok {
+	margin-top: 350;
+	margin-left: -295;
+}
+
+#sognefjord {
+	margin-top: 200;
+	margin-left: -525;
+}
+
+#reef {
+	margin-top: 415;
+	margin-left: -175;
+}
+
+#victoria-falls {
+	margin-top: 400;
+	margin-left: -475;
+}
+
+#map {
+	width: 1000px;
+	position: relative;
+	margin-top: -100px;
+	margin-left: 14%;
+	z-index: 1;
+}
+
+.card-img {
+	width: 800px;
+	position: relative;
+	margin-left: 10%;
+	margin-top: 20px;
+}
+
+.image-card {
+  box-sizing: border-box;
+  background-color: white;
+  box-shadow: 0px 0px 5px #ccc;
+  width: 1000px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
