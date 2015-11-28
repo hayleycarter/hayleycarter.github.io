@@ -1,6 +1,6 @@
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
 	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script src="script.js"></script>
 </head>
@@ -13,26 +13,132 @@
 			</div>
 			<a href="index.html"><img id="logo" src="images/logo_white.png"></a>
 			<div id="searchbar_container">
-				<div class="nav-option">About</div>
+				<div class="nav-option"><a href="index.html">About</div>
 				<div class="nav-option">Apply</div>
 				<div class="nav-option"><a href="destinations.html">Destinations</a></div>
 				<div class="nav-option"><a href="studentwork.html">Student Work </a></div>
 			</div>
 		</div>
 	</div>
-
+	<div id="dest-background"></div>
 	<div id="content">
-		<div id="header">DESTINATIONS</div>
-		<div id="subheader">our wonders of the world</div>
-		<img id="map" src="images/worldmap.png">
-		<img class="map-point" id="arizona" src="images/point.png">
-		<img class="map-point" id="rio" src="images/point.png">
-		<img class="map-point" id="tokyo" src="images/point.png">
-		<img class="map-point" id="sognefjord" src="images/point.png">
-		<img class="map-point" id="bangkok" src="images/point.png">
-		<img class="map-point" id="christchurch" src="images/point.png">
-		<img class="map-point" id="reef" src="images/point.png">
-		<img class="map-point" id="victoria-falls" src="images/point.png">
+		<div id="map-etc">
+			<div id="header">DESTINATIONS</div>
+			<div id="subheader">our wonders of the world</div>
+			<img id="map" src="images/worldmap.png">
+			<img class="map-point" id="p1" src="images/point.png">
+			<img class="map-point" id="p2" src="images/point.png">
+			<img class="map-point" id="p6" src="images/point.png">
+			<img class="map-point" id="p3" src="images/point.png">
+			<img class="map-point" id="p5" src="images/point.png">
+			<img class="map-point" id="p8" src="images/point.png">
+			<img class="map-point" id="p7" src="images/point.png">
+			<img class="map-point" id="p4" src="images/point.png">
+		</div>
+		<div id="info-container">
+			<div class="info-card" id="i1">
+				<div class="card-image">
+					<img src="images/grandcanyon.jpeg" class="info-img">
+				</div>
+				<div class="place-info">
+					Place: Grand Canyon, AZ
+					<br>
+					Location: 36.1000 N, 112.1000 W
+					<br>
+					Duration: 2 days
+				</div>
+			</div>
+			<div class="info-card" id="i2">
+				<div class="card-image">
+					<img src="images/rio.jpeg" class="info-img">
+				</div>
+				<div class="place-info">
+					Place: Rio de Janeiro, Brazil
+					<br>
+					Location: 22.9068 S, 43.1729 W
+					<br>
+					Duration: 3 days
+				</div>
+			</div>
+
+			<div class="info-card" id="i3">
+				<div class="card-image">
+					<img src="images/sognefjord.jpeg" class="info-img">
+				</div>
+				<div class="place-info">
+					Place: Sognefjord, Norway
+					<br>
+					Location: 61.1000 N, 5.1667 E
+					<br>
+					Duration: 2 days
+				</div>
+			</div>
+
+			<div class="info-card" id="i4">
+				<div class="card-image">
+					<img src="images/victoriafalls.jpg" class="info-img">
+				</div>
+				<div class="place-info">
+					Place: Victoria Falls, Zambia
+					<br>
+					Location: 17.9244 S, 25.8567 E
+					<br>
+					Duration: 4 days
+				</div>
+			</div>
+
+			<div class="info-card" id="i5">
+				<div class="card-image">
+					<img src="images/bangkok.jpeg" class="info-img">
+				</div>
+				<div class="place-info">
+					Place: Bangkok, Thailand
+					<br>
+					Location: 13.7563 N, 100.5018 E
+					<br>
+					Duration: 5 days
+				</div>
+			</div>
+
+			<div class="info-card" id="i6">
+				<div class="card-image">
+					<img src="images/tokyo.jpeg" class="info-img">
+				</div>
+				<div class="place-info">
+					Place: Tokyo, Japan
+					<br>
+					Location: 35.6833 N, 139.6833 E
+					<br>
+					Duration: 3 days
+				</div>
+			</div>
+
+			<div class="info-card" id="i7">
+				<div class="card-image">
+					<img src="images/reef.jpg" class="info-img">
+				</div>
+				<div class="place-info">
+					Place: The Great Barrier Reef, Australia
+					<br>
+					Location: 18.2861 S, 147.7000 E
+					<br>
+					Duration: 2 days
+				</div>
+			</div>
+			<div class="info-card" id="i8">
+				<div class="card-image">
+					<img src="images/christchurch.jpeg" class="info-img">
+				</div>
+				<div class="place-info">
+					Place: Christchurch, New Zealand
+					<br>
+					Location: 43.5300 S, 172.6203 E
+					<br>
+					Duration: 3 days
+				</div>
+			</div>
+		</div>
+		<img id="up-arrow" src="images/up-arrow.png">
 	</div>
 
 </body>
