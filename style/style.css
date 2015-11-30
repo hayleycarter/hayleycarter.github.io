@@ -71,16 +71,13 @@ body {
     z-index: -1;
 }
 
-.header {
-	color: white;
-	font-family: 'Archivo Narrow', sans-serif;
-}
-
 #title {
 	position: relative;
 	margin-left: 40%;
 	font-size: 100px;
 	letter-spacing: 0px;
+	margin-bottom: 15px;
+	color: white;
 }
 
 #title:hover {
@@ -95,6 +92,7 @@ body {
 	width: 100%;
 	letter-spacing: 8px;
 	margin-top: -2%;
+	color: white;
 }
 
 a:hover {
@@ -133,6 +131,20 @@ a:hover {
 	font-size: 20;
 	letter-spacing: 5;
 	z-index: 3;
+	margin-top: 25px;
+}
+
+#logo-cloud {
+	position: absolute;
+	margin-top: 50px;
+	margin-left: 39%;
+}
+
+#logo-camera {
+	position: relative;
+	margin-top: 15%;
+	margin-left: 39%;
+
 }
 
 .map-point {
@@ -288,4 +300,36 @@ a:hover {
 #up-arrow:hover {
 	cursor: pointer;
 	width: 100px;
+}
+
+.icon {
+	height: 100px;
+	position: relative;
+	margin-left: 47%;
+	margin-top: 25px;
+}
+
+.list-option {
+	height: 500px;
+	background-color: grey;
+	position: absolute;
+	width: 100%;
+	opacity: .6;
+}
+
+.list-header {
+	position: relative;
+	margin-left: 47%;
+	color: white;
+	font-size: 36pt;
+	letter-spacing: 8px;
+	
+}
+
+.description {
+	position: relative;
+	margin-left: 200px;
+	margin-top: 50px;
+	font-size: 24pt;
+	color:white;
 }
