@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$(".card-preview").hover(function() {
+	$(".card-preview").mouseover(function() {
 		$(".image-info").fadeIn();
 	})
 
@@ -23,6 +23,21 @@ $(document).ready(function() {
 	$("#homepage").mouseover(function() {
 		$("#logo-camera").animate({marginTop: "50px"}, 2000);
 	})
+
+	$(".show").click(function() {
+	    if($(this).hasClass('show')){
+		    $(".image-info").animate({
+		      left: "-=300"}, 1000);
+		      $(this).removeClass('show').addClass('hide');
+		    }
+	    else {      
+		    $(".image-info").animate({
+		      left: "+=300"}, 1000);
+		      $(this).removeClass('hide').addClass('show');    
+		}
+	})
+
+
 })
 
 

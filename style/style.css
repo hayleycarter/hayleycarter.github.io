@@ -227,6 +227,8 @@ a:hover {
 	position: relative;
 	margin-left: 10%;
 	margin-top: 20px;
+	z-index: 2;
+	margin-bottom:20px;
 }
 
 .image-card {
@@ -240,8 +242,51 @@ a:hover {
   margin: 0 auto;
   margin-top: 50px;
   margin-bottom: 50px;
+  z-index: -1;
+
 }
 
+#work-logo {
+	width: 75px;
+	z-index: 4;
+	position: absolute;
+	margin-top: -65px;
+	margin-left: 50px;
+}
+
+.image-info {
+	z-index: 5;
+	margin-top: -100px;
+	color: white;
+	width: 300px;
+	font-size: 14px;
+	position: absolute;
+	left: 900px;
+}
+
+.slide-arrow {
+	z-index: 7;
+}
+
+.slide-arrow:hover{
+	cursor: pointer;
+}
+
+
+.show {
+	width: 50px;
+	margin-left: -25%;
+	position: absolute;
+	margin-top: -5%;
+}
+
+.hide {
+	width: 50px;
+	margin-left: -25%;
+	position: absolute;
+	margin-top: -5%;
+	display: none;
+}
 
 .info-card {
   box-sizing: border-box;
@@ -283,7 +328,7 @@ a:hover {
 #dest-background {
 	background-color: white;
 	width: 100%;
-	height: 1360;
+	height: 1400;
 	position: absolute;
 	z-index: 1;
 }
@@ -310,7 +355,7 @@ a:hover {
 }
 
 .list-option {
-	height: 500px;
+	height: 400px;
 	background-color: grey;
 	position: relative;
 	width: 100%;
