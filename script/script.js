@@ -1,8 +1,4 @@
 $(document).ready(function() {
-	$(".card-preview").mouseover(function() {
-		$(".image-info").fadeIn();
-	})
-
 	$(".map-point").click(function() {
 		$(".info-card").hide();
 		var number = $(this).attr('id').slice(-1);
@@ -36,7 +32,6 @@ $(document).ready(function() {
 		      $(this).removeClass('hide').addClass('show');    
 		}
 	})
-
 
 })
 
